@@ -13,7 +13,7 @@ class Hero
   end
 
   def self.all
-    @@all  
+    @@all
   end
 
   def self.clear
