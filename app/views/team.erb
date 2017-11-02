@@ -12,7 +12,7 @@
       <h2>Team Motto: <%=@team.motto%></h2>
       <% @members.each do |member| %>
         <br>
-        <h2>Hero </h2>
+        <h2>Hero Name: <%=member.name%></h2>
         <br>
         <p>Hero's Name: <input id="member1_name" type="text" name="team[members][][name]"></p>
         <p>Hero's Power: <input id="member1_power" type="text" name="team[members][][power]"></p>
